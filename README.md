@@ -6,20 +6,14 @@ So, let's take what you've learned about Python Matplotlib and apply it to a rea
 
 ## Overview
 
+Well defined plots can vastly improve the story that data can tell. By plotting the results of a treatment regime of cancer tumors on a set of test mice, pharmaceutical companies can adjust their treatments to improve efficacy. The task is to provide detailed tables and figures for the technical report of the study. 
 
 ## Method
+Before the analysis, check data for any dulipcate time points for any of the mouse ID's. Remove any data associated for any duplicates
+Generate a summary statistics table of mean,median,variance,standard deviation, and SEM of the tumor volume for each drug treatment.
+Generate a bar plot that shows the total number of mice for each treatment regimen throughout the course of the study
 
 ## Analysis
-Before beginning the analysis, check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
-
-
-Use the cleaned data for the remaining steps.
-
-
-Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
-
-
-Generate a bar plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows  the number of total mice for each treatment regimen throughout the course of the study.
 
 
 NOTE: These plots should look identical.
