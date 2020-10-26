@@ -10,18 +10,18 @@ Well defined plots can vastly improve the story that data can tell. By plotting 
 
 ## Method
 Before the analysis, check data for any dulipcate time points for any of the mouse ID's. Remove any data associated for any duplicates
+
 Generate a summary statistics table of mean,median,variance,standard deviation, and SEM of the tumor volume for each drug treatment.
+
 Generate a bar plot that shows the total number of mice for each treatment regimen throughout the course of the study. 
+
 Generate a pie plot that shows the distribution of female and male mice in the study.
 
+Using the four most promising treatments and calculate the final tumor volume for each mouse. Calculate the quartiles and IQR and determine if there are any outliers across the four treatments. 
+
+Create a box and whisker plot of the final tumor volume for the previous four treatment regimens, highlight the potential outliers by changing their color. 
+
 ## Analysis
-
-
-Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
-
-
-Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
-Hint: All four box plots should be within the same figure. Use this Matplotlib documentation page for help with changing the style of the outliers.
 
 
 Select a mouse that was treated with Capomulin and generate a line plot of time point versus tumor volume for that mouse.
