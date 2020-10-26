@@ -28,5 +28,9 @@ Generate a scatter plot of mouse weight vs the average tumor volume for the Capo
 Calculate the correlation coefficient and linear regression model of mouse weight and average tumor volume for the Capomulin regimen. Plost the linear regression model on the previous scatter plot. 
 
 ## Analysis
+Ramicane and Capomulin as treatments were successful in reducing the volume of the tumor size during the trial period. Running these regimens under a longer study could prove even more success.
 
+Ramicane and Capomulin also had a smaller Standard Deviation of their tumor size. This shows that the regimens produced more consistent results among the mice that they tested. The higher Standard Deviation numbers of the other regimens show a more sporadic result range amongst the mice in those groups.
+
+In the Capomulin test group, the size of tumor strongly correlated with weight of mouse. Do larger mice produce larger tumors? Or, more then likely, the larger tumors will ultimately add to the total weight of their mice. Running these computations against the other regimen groups would help sus out this information
 
