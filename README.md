@@ -11,20 +11,10 @@ Well defined plots can vastly improve the story that data can tell. By plotting 
 ## Method
 Before the analysis, check data for any dulipcate time points for any of the mouse ID's. Remove any data associated for any duplicates
 Generate a summary statistics table of mean,median,variance,standard deviation, and SEM of the tumor volume for each drug treatment.
-Generate a bar plot that shows the total number of mice for each treatment regimen throughout the course of the study
+Generate a bar plot that shows the total number of mice for each treatment regimen throughout the course of the study. 
+Generate a pie plot that shows the distribution of female and male mice in the study.
 
 ## Analysis
-
-
-NOTE: These plots should look identical.
-
-
-
-Generate a pie plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the distribution of female or male mice in the study.
-
-
-NOTE: These plots should look identical.
-
 
 
 Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
